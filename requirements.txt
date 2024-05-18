@@ -1,4 +1,4 @@
 flask
+tf-keras
 deepface
 numpy
-tf-keras

@@ -9,7 +9,7 @@ app = Flask(__name__)
 # ... your facial expression detection code here ...
 
 
-@app.route('/detect_emotions', methods=['POST'])
+@app.route('/detect', methods=['POST'])
 def detect_emotions():
     # Get base64 string from the request
     data = request.get_json()
